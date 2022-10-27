@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/amigonelson1/static/css/main.a8e31b50.css",
+    "main.js": "/amigonelson1/static/js/main.1e6eee56.js",
+    "static/media/1.png": "/amigonelson1/static/media/1.026e4955b2d9c28ebefb.png",
+    "static/media/primeicons.svg": "/amigonelson1/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/2.jpg": "/amigonelson1/static/media/2.209d4d5d11dca36b8411.jpg",
+    "static/media/kenyan.ttf": "/amigonelson1/static/media/kenyan.43207d385805cb65425e.ttf",
+    "static/media/primeicons.eot": "/amigonelson1/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/amigonelson1/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/amigonelson1/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/Autography.otf": "/amigonelson1/static/media/Autography.4a770540027c18beeccd.otf",
+    "static/media/Melorist.ttf": "/amigonelson1/static/media/Melorist.5dd3eb65662a6f4b42fb.ttf",
+    "static/media/primeicons.woff2": "/amigonelson1/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "index.html": "/amigonelson1/index.html",
+    "main.a8e31b50.css.map": "/amigonelson1/static/css/main.a8e31b50.css.map",
+    "main.1e6eee56.js.map": "/amigonelson1/static/js/main.1e6eee56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8e31b50.css",
+    "static/js/main.1e6eee56.js"
+  ]
+}
