@@ -1,13 +1,455 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation-name: animat;
+    animation-duration: 8s;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Block for style font*/
+
+@font-face {
+    font-family: kenyan;
+    src: url(kenyan.ttf)
 }
+
+@font-face {
+    font-family: autography;
+    src: url(Autography.otf)
+}
+
+@font-face {
+    font-family: melorist;
+    src: url(Melorist.ttf)
+}
+
+/* transition for image y others*/
+
+@keyframes animat {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*Block for assign kind to fonts*/
+
+h1 {
+    color: #fca311;
+    font-family: "autography";
+    text-align: center;
+}
+
+h2 {
+    color: #fca311;
+    font-family: "autography";
+    text-align: center;
+    line-height: 55px;
+}
+
+p {
+    color: #e5e5e5;
+    font-family: "melorist";
+    text-align: justify;
+}
+
+li {
+    color: #e5e5e5;
+    font-family: "melorist";
+}
+
+
+
+/* Block for change text size of title and sub titles*/
+
+@media screen and (min-width: 831px) {
+    h1 {
+        font-size: 80px;
+        margin-bottom: -20px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 60px;
+        margin-bottom: -10px;
+        margin-top: -30px;
+    }
+
+    p {
+        font-size: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    li {
+        font-size: 23px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    h1 {
+        font-size: 60px;
+        margin-bottom: -10px;
+    }
+
+    h2 {
+        font-size: 55px;
+        margin-bottom: -10px;
+        margin-top: -30px;
+    }
+
+    p {
+        font-size: 22px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    li {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    h1 {
+        font-size: 45px;
+        line-height: 40px;
+        margin-top: 60px;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-size: 45px;
+        margin-bottom: -10px;
+        line-height: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    li {
+        font-size: 19px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 45px;
+        line-height: 40px;
+        margin-top: 60px;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-size: 45px;
+        margin-top: 25px;
+        margin-bottom: -10px;
+        line-height: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    li {
+        font-size: 18px;
+        margin-left: -15px;
+        margin-right: -10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 35px;
+        line-height: 35px;
+        margin-top: 10px;
+        margin-bottom: -20px;
+        padding: 15px 30px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    li {
+        font-size: 16px;
+        margin-left: -20px;
+        margin-right: -10px;
+    }
+}
+
+/* Block for menu*/
+
+@media screen and (min-width: 501px) {
+    .menuSecundario {
+        display: none !important;
+    }
+
+    .menuPrincipal {
+        display: flex;
+        background-color: #434343;
+        max-width: 800px;
+        height: 40px;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    .item {
+        flex-grow: 1;
+        margin: auto;
+        text-align: center;
+        font-family: "kenyan";
+        color: white;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .item:hover {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .menuPrincipal {
+        display: none !important;
+    }
+
+    .menuSecundario {
+        min-width: 100%;
+        background-color: #434343;
+        height: 80px;
+        margin-top: -20px;
+        margin-bottom: -30px;
+        border-radius: 40px;
+    }
+
+    .item {
+        margin: auto 0;
+        font-family: "kenyan";
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .item:hover {
+        font-size: 25px;
+    }
+}
+
+.item:hover {
+    color: #fca311
+}
+
+/* Block for central image and text*/
+
+.containerFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.containerImg {
+    max-width: 350px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.imgRound {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 61% 39% 34% 66% / 30% 25% 75% 70%;
+    border: 5px solid #000000;
+    /* animacion para mostrar y  opacar lentamente*/
+    animation-name: animat;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /*animation-delay: 2s;
+    */
+
+}
+
+.container {
+    margin-top: 25px;
+    position: relative;
+    flex-grow: 4;
+    width: 50%;
+}
+
+.animar {
+    animation-name: animat;
+    animation-duration: 5s;
+}
+
+/*Arrow size block */
+
+@media screen and (min-width: 661px) {
+    .flechaAtras {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        top: 100px;
+        background-color: gray;
+        opacity: 0.5;
+        border-radius: 20px;
+    }
+
+    .flechaAdelante {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        top: 100px;
+        right: 0;
+        background-color: gray;
+        opacity: 0.5;
+        border-radius: 20px;
+    }
+
+    i {
+        font-size: 1.5em;
+        color: #e5e5e5;
+        margin-left: 7px;
+        margin-top: 9px;
+    }
+
+    i:hover {
+        color: #fca311;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .flechaAtras {
+        position: absolute;
+        top: 80px;
+        height: 28px;
+        width: 28px;
+        background-color: gray;
+        opacity: 0.5;
+        border-radius: 14px;
+    }
+
+    .flechaAdelante {
+        position: absolute;
+        height: 28px;
+        width: 28px;
+        top: 80px;
+        right: 0;
+        background-color: gray;
+        opacity: 0.5;
+        border-radius: 14px;
+    }
+
+    i {
+        font-size: 1em;
+        color: #e5e5e5;
+        margin-left: 6px;
+        margin-top: 7px;
+    }
+
+    i:hover {
+        color: #fca311;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .flechaAdelante {
+        display: none !important;
+    }
+
+    .flechaAtras {
+        display: none !important;
+    }
+}
+
+.flechaAtras:hover {
+    opacity: 1;
+}
+
+.flechaAdelante:hover {
+    opacity: 1;
+}
+
+/* Block for social media*/
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia {
+    height: 50px;
+}
+
+@media screen and (min-width: 361px) {
+    .icons {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        color: #e5e5e5;
+        font-size: 2em;
+    }
+
+    .icons:hover {
+        color: #fca311;
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .icons {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        color: #e5e5e5;
+        font-size: 1.5em;
+    }
+
+    i:hover {
+        color: #fca311;
+        font-size: 2em;
+    }
+}
+
+@media (300px <=width <=750px) {}
+
+@media (width <=750) {}
+
+/* medidas responsivas
+smart max-width 766px
+desktop min-width 1024
+tablets min-width 767 y max-width 1023
+*/
