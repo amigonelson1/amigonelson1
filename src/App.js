@@ -60,8 +60,8 @@ function App() {
                 valores del respeto, la honestidad y la responsabilidad.<br />
                 En la juventud abandoné mis estudios tecnológicos por dedicarme a laborar, cosa que mucho más adelante corregí (a mis 35 años)
                 retomando o más bien reiniciando la vida académica gracias al esfuerzo, dedicación y apoyo de mi madre y a la fortuna de poder
-                ingresar a tan prestigiosa y de la cual me siento muy orgulloso, mi alma mater UIS, alcanzando así una meta más en la vida, que es
-                la de ser un Ingeniero de Sistemas. <br />
+                ingresar a tan prestigiosa y de la cual me siento muy orgulloso, mi alma mater Universidad Industrial de Santander UIS, alcanzando 
+                así una meta más en la vida, que es la de ser un Ingeniero de Sistemas (2022). <br />
                 Por un largo periodo de tiempo me desempeñé como técnico, área en la cual aprendí bastante y me fue muy útil la interacción
                 diaria con la gran cantidad de usuarios con los cuales trate.<br />
                 Respeto mucho la naturaleza y siento gran afinidad por los animales domésticos.<br />
