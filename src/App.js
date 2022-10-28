@@ -39,21 +39,21 @@ function App() {
     <>
       <div><h1>José Nelson Amaris Ortiz</h1></div>
       <div className='menuPrincipal'>
-        <div className='item' onClick={e => setChangeState(1)}>¿Quien soy?</div>
+        <div className='item' onClick={e => setChangeState(1)}>¿Quién soy?</div>
         <div className='item' onClick={e => setChangeState(2)}>Estudios</div>
         <div className='item' onClick={e => setChangeState(3)}>Experiencia y habilidades</div>
       </div>
       <div className='containerFlex'>
         <MemoPresentacion />
         <div className='menuSecundario'>
-          <div className='item' onClick={e => setChangeState(1)}>¿Quien soy?</div>
+          <div className='item' onClick={e => setChangeState(1)}>¿Quién soy?</div>
           <div className='item' onClick={e => setChangeState(2)}>Estudios</div>
           <div className='item' onClick={e => setChangeState(3)}>Experiencia y habilidades</div>
         </div>
         <div className='container'>
           {changeState === 1 ?
             <div className='animar'>
-              <h2>¿Quien soy?</h2>
+              <h2>¿Quién soy?</h2>
               <p>
                 Nacido en Bucaramanga en 1981, criado, educado y rodeado de familiares y personas que me han servido de ejemplos
                 a seguir y con el valioso apoyo siempre de mi madre, quien ha estado ahí de manera incondicional y que me inculco los

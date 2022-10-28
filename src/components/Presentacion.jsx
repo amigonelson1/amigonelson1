@@ -24,6 +24,7 @@ export const Presentacion = () => {
         return (
             <div className='containerImg'>
                 <img src={control[fotos]} alt='Imagen de perfil' className='imgRound' />
+                <i style={{fontSize:'15px'}}>"La victoria más difícil es la victoria sobre uno mismo" (Aristóteles)</i>
             </div>
         )
     }
