@@ -37,19 +37,21 @@ function App() {
 
   return (
     <>
-      <div><h1>José Nelson Amaris Ortiz</h1></div>
-      <div className='menuPrincipal'>
-        <div className='item' onClick={e => setChangeState(1)}>¿Quién soy?</div>
-        <div className='item' onClick={e => setChangeState(2)}>Estudios</div>
-        <div className='item' onClick={e => setChangeState(3)}>Experiencia y habilidades</div>
-      </div>
-      <div className='containerFlex'>
-        <MemoPresentacion />
+      <div className='fijarMenu'>
+        <div><h1>José Nelson Amaris Ortiz</h1></div>
+        <div className='menuPrincipal'>
+          <div className='item' onClick={e => setChangeState(1)}>¿Quién soy?</div>
+          <div className='item' onClick={e => setChangeState(2)}>Estudios</div>
+          <div className='item' onClick={e => setChangeState(3)}>Experiencia y habilidades</div>
+        </div>
         <div className='menuSecundario'>
           <div className='item' onClick={e => setChangeState(1)}>¿Quién soy?</div>
           <div className='item' onClick={e => setChangeState(2)}>Estudios</div>
           <div className='item' onClick={e => setChangeState(3)}>Experiencia y habilidades</div>
         </div>
+      </div>
+      <div className='containerFlex'>
+        <MemoPresentacion />
         <div className='container'>
           {changeState === 1 ?
             <div className='animar'>
@@ -60,7 +62,7 @@ function App() {
                 valores del respeto, la honestidad y la responsabilidad.<br />
                 En la juventud abandoné mis estudios tecnológicos por dedicarme a laborar, cosa que mucho más adelante corregí (a mis 35 años)
                 retomando o más bien reiniciando la vida académica gracias al esfuerzo, dedicación y apoyo de mi madre y a la fortuna de poder
-                ingresar a tan prestigiosa y de la cual me siento muy orgulloso, mi alma mater Universidad Industrial de Santander UIS, alcanzando 
+                ingresar a tan prestigiosa y de la cual me siento muy orgulloso, mi alma mater Universidad Industrial de Santander UIS, alcanzando
                 así una meta más en la vida, que es la de ser un Ingeniero de Sistemas (2022). <br />
                 Por un largo periodo de tiempo me desempeñé como técnico, área en la cual aprendí bastante y me fue muy útil la interacción
                 diaria con la gran cantidad de usuarios con los cuales trate.<br />
