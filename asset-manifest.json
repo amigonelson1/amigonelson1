@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/amigonelson1/static/css/main.8f2cfbf1.css",
-    "main.js": "/amigonelson1/static/js/main.096c4b3f.js",
-    "static/media/1.png": "/amigonelson1/static/media/1.026e4955b2d9c28ebefb.png",
+    "main.js": "/amigonelson1/static/js/main.5c1248c9.js",
     "static/media/primeicons.svg": "/amigonelson1/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/2.jpg": "/amigonelson1/static/media/2.209d4d5d11dca36b8411.jpg",
     "static/media/kenyan.ttf": "/amigonelson1/static/media/kenyan.43207d385805cb65425e.ttf",
+    "static/media/1.jpg": "/amigonelson1/static/media/1.f2b4cb4d42f4c6aa4569.jpg",
     "static/media/primeicons.eot": "/amigonelson1/static/media/primeicons.d44157bdfa026dc877af.eot",
     "static/media/primeicons.woff": "/amigonelson1/static/media/primeicons.10d3152104f2208ac82a.woff",
     "static/media/primeicons.ttf": "/amigonelson1/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
@@ -14,10 +14,10 @@
     "static/media/primeicons.woff2": "/amigonelson1/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "index.html": "/amigonelson1/index.html",
     "main.8f2cfbf1.css.map": "/amigonelson1/static/css/main.8f2cfbf1.css.map",
-    "main.096c4b3f.js.map": "/amigonelson1/static/js/main.096c4b3f.js.map"
+    "main.5c1248c9.js.map": "/amigonelson1/static/js/main.5c1248c9.js.map"
   },
   "entrypoints": [
     "static/css/main.8f2cfbf1.css",
-    "static/js/main.096c4b3f.js"
+    "static/js/main.5c1248c9.js"
   ]
 }
