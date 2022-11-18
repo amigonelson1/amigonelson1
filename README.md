@@ -3,3 +3,4 @@ to contact me:
 Whatsapp: +57 3163942889
 email: josenamaris@gmail.com
 gitpage: https://amigonelson1.github.io/amigonelson1/
+![Image text](https://github.com/amigonelson1/amigonelson1/blob/master/src/images/codigovsc.webp)
