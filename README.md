@@ -1,5 +1,5 @@
-Personally, I am open to learning and committed to homework, honest and empathetic, I consider myself patient and in a good mood, I enjoy the simple moments in life. Professionally I have knowledge in Frontend web development using Reactjs developing an application for shift scheduling as a degree project, additionally I have experience in telecommunications in HFC networks, copper and satellite networks.
+Recently graduated Systems Engineer focused on Frontend web development, with knowledge of HTML, CSS, JavaScript and React js, additional basic knowledge in project managers such as GitHub and Bitbucket, and project managers such as Trello, also in Relational databases such as MySQL and programming languages like Python.
 to contact me:
 Whatsapp: +57 3163942889
-email: amigonelson1@hotmail.com
+email: josenamaris@gmail.com
 gitpage: https://amigonelson1.github.io/amigonelson1/

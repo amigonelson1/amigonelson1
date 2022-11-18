@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import miFoto1 from '../images/1.png'
+import miFoto1 from '../images/1.jpg'
 import miFoto2 from '../images/2.jpg'
 
 export const Presentacion = () => {
