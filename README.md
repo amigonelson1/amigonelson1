@@ -1,4 +1,4 @@
-Recently graduated Systems Engineer focused on Frontend web development, with knowledge of HTML, CSS, JavaScript and React js, additional basic knowledge in project managers such as GitHub and Bitbucket, and project managers such as Trello, also in Relational databases such as MySQL and programming languages like Python.
+Systems engineer graduated from the Industrial University of Santander, with more than a year of experience developing applications using Angular, .Net and SQL databases. In addition, he has additional skills in other programming languages such as Python. My training includes knowledge in project management, which allows me to contribute effectively to the planning and execution of software development projects.
 to contact me:
 Whatsapp: +57 3163942889
 email: josenamaris@gmail.com
